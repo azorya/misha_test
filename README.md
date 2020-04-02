@@ -21,18 +21,23 @@ example:
     drwxr-xr-x 3 alex alex 4096 Jan 17 09:24 java_versions
 In this example you want to set JAVA_HOME=~/apps/java
 
-run the following commands:
+cd to the repo directory and run the following commands:
 
     alex@ubuntus1:~/misha/misha_test$ gradle wrapper
 
     BUILD SUCCESSFUL in 609ms
     1 actionable task: 1 executed
-   
+
+Now you should have _gradlew_ file check the result.
+
     alex@ubuntus1:~/misha/misha_test$ ls
     build.gradle  gradle  gradle.properties  gradlew  gradlew.bat  README.md  settings.gradle  zSchemas  zSDump
+
+Build the projects.    
+
     alex@ubuntus1:~/misha/misha_test$ ./gradlew build
 
-you should see the output like this one:
+You should see the output like this one:
 
     > Task :zSchemas:compileJava
     Note: Some input files use unchecked or unsafe operations.
