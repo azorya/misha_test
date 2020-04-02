@@ -1,0 +1,14 @@
+{
+  "namespace": "com.zgconsultants.avro.schema",
+  "type": "record",
+  "name": "FirstMsg",
+  "doc":  "FirstMsg  some very relevant doc about this type",
+  "fields": [
+     {"name": "head",             "type": "com.zgconsultants.avro.schema.HeadRecord",                                 "doc": "head:   some very relevant doc"},
+     {"name": "first",            "type": "long",                                                                     "doc": "first:  some very relevant doc"},
+     {"name": "second",           "type": "double",                                                                   "doc": "second: some very relevant doc"},
+     {"name": "third",            "type": ["null","string"],                                       "default": null,   "doc": "third:  some very relevant doc"},
+     {"name": "forth",            "type": ["null","com.zgconsultants.avro.schema.EnumTypeOne"],    "default": null,   "doc": "forth:  some very relevant doc"},
+     {"name": "tail",             "type": ["null","com.zgconsultants.avro.schema.TailRecord"],     "default": null,   "doc": "tail:   some very relevant doc"}
+   ]
+}

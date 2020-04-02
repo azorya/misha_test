@@ -1,0 +1,12 @@
+allprojects {
+
+    version = '0.0.1'
+
+    group = 'com.zgconsultans.kafka'
+    repositories {
+        jcenter()
+        maven {
+         url  "http://packages.confluent.io/maven"
+        }    
+    }
+}

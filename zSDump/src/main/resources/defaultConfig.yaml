@@ -1,0 +1,14 @@
+namespace: com.zgconsultants.avro.schema
+fileExtention: avcs
+outDir: ''
+
+JarMask: zSchemas
+
+schemaRegistry: http://localhost:8081
+
+prettyDump:
+
+MsgType2SchemaSubjects: {
+  FirstMsg  : [TOPIC_NAME-value, FirstMsg],
+  SecondMsg : [SecondMsg]
+}
