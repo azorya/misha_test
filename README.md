@@ -28,7 +28,7 @@ cd to the repo directory and run the following commands:
     BUILD SUCCESSFUL in 609ms
     1 actionable task: 1 executed
 
-Now you should have _gradlew_ file check the result.
+Now you should have _gradlew_ file. Check the result with _ls_.
 
     alex@ubuntus1:~/misha/misha_test$ ls
     build.gradle  gradle  gradle.properties  gradlew  gradlew.bat  README.md  settings.gradle  zSchemas  zSDump
